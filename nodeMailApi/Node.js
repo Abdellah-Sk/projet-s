@@ -41,7 +41,7 @@ server.post('/send-email', async (req, res, next) => {
             secure: true,
             auth: {
                 user: 'microdidac.corp@gmail.com',
-                pass: 'zoubida31'
+                pass: 'test'
             }
         });
         let mailOptions = {
